@@ -1,5 +1,5 @@
 {
-    "name": "vivifyideas/slack-api",
+    "name": "lasoftrepo/laravel-slack-api",
     "description": "Wrapper for Slack.com WEB API.",
     "license": "MIT",
     "keywords":["Laravel", "Lumen", "Slack"],
@@ -11,6 +11,10 @@
         {
             "name": "Milos Miljanic",
             "email": "milosmilos96@gmail.com"
+        },
+        {
+            "name": "Lylyk Ivan",
+            "email": "ivan.lylyk@lasoft.org"
         }
     ],
     "require": {
