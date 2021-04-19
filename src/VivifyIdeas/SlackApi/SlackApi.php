@@ -231,9 +231,8 @@ class SlackApi implements Contract
      */
     protected function mergeParameters($parameters = [])
     {
-        $options['query'] = [
-            't' => time(),
-            'token' => $this->getToken(),
+        $options['headers'] = [
+            'Authorization' => 'Bearer '. $this->getToken(),
         ];
 
         if (isset($parameters['attachments']) and is_array($parameters['attachments'])) {
